@@ -1,0 +1,95 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  color: #f4efde;
+  background-color: #1b1a17;
+  font-size: 1em;
+}
+
+.svn-wrapper {
+  margin: 0vw 20vw;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: #333;
+}
+
+.rev {
+  width: 60%;
+  height: 3em;
+  padding: 1em;
+  text-align: left;
+  font-size: 1.6em;
+}
+.credits {
+  width: 40%;
+  height: 3em;
+  padding: 1em;
+  font-size: 1em;
+  text-align: right;
+}
+
+.credits a {
+  color: #00ff80;
+  text-decoration: underline;
+}
+
+.path {
+  height: 2em;
+  padding: 0.5em;
+  background-color: #424242;
+}
+
+.icons {
+  font-family: "Material Icons";
+  font-size: 1em;
+}
+
+.dir,
+.file {
+  margin: 0.5em 3em;
+  padding: 0.5em;
+  background-color: #333;
+  border-radius: 0.2em;
+}
+
+.dir:hover,
+.file:hover {
+  color: #333;
+  background-color: #666;
+}
+
+.dir a {
+  text-decoration: none;
+  color: #f4efde;
+}
+
+.file a {
+  text-decoration: none;
+  color: #f6acff;
+}
+
+.updir {
+  padding: 0.5em;
+  background: #282828;
+  color: #f4efde;
+}
+
+.updir a {
+  color: #00ff80;
+}
